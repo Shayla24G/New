@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-10T21:59:32 EDT" name="Default suite" finished-at="2024-07-10T22:00:22 EDT" duration-ms="50168">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:demoBlaze.TestRunner.DemoTestRunner@6e9a5ed8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-07-10T21:59:32 EDT" name="Default test" finished-at="2024-07-10T22:00:22 EDT" duration-ms="50168">
+      <class name="demoBlaze.TestRunner.DemoTestRunner">
+        <test-method is-config="true" signature="DemoBlazeStartURL()[pri:0, instance:demoBlaze.TestRunner.DemoTestRunner@6e9a5ed8]" started-at="2024-07-10T21:59:32 EDT" name="DemoBlazeStartURL" finished-at="2024-07-10T21:59:51 EDT" duration-ms="19700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeStartURL -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:demoBlaze.TestRunner.DemoTestRunner@6e9a5ed8]" started-at="2024-07-10T21:59:51 EDT" name="setUpClass" finished-at="2024-07-10T21:59:52 EDT" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:demoBlaze.TestRunner.DemoTestRunner@6e9a5ed8]" started-at="2024-07-10T21:59:52 EDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-07-10T22:00:13 EDT" duration-ms="21087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify Contact link and New Message window]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:demoBlaze.TestRunner.DemoTestRunner@6e9a5ed8]" started-at="2024-07-10T22:00:13 EDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-07-10T22:00:21 EDT" duration-ms="7170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is for verify login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:demoBlaze.TestRunner.DemoTestRunner@6e9a5ed8]" started-at="2024-07-10T22:00:21 EDT" name="tearDownClass" finished-at="2024-07-10T22:00:21 EDT" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="DemoBlazeCloseBrowser()[pri:0, instance:demoBlaze.TestRunner.DemoTestRunner@6e9a5ed8]" started-at="2024-07-10T22:00:21 EDT" name="DemoBlazeCloseBrowser" finished-at="2024-07-10T22:00:22 EDT" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoBlazeCloseBrowser -->
+      </class> <!-- demoBlaze.TestRunner.DemoTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
